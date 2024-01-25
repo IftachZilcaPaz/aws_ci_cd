@@ -28,6 +28,8 @@ with those:
 
 and connect it to this instance
 
+>>>>>> need to install docker on this instance!! see the USER DATA FILE!! can use it to run on the instance after the create a bedore
+
 
 
 
@@ -36,7 +38,8 @@ and connect it to this instance
 # -- Create repo --
 
 ## Manual we can from:
-<img width="1169" alt="image" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/2c4edc73-e765-409c-a599-ac5a99127b10">
+<img width="1169" alt="299620913-2c4edc73-e765-409c-a599-ac5a99127b10" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/e1d437cd-6bd1-4d0b-9bc1-b8283909dd08">
+
 
 
 ## or with CLI
@@ -79,7 +82,8 @@ and generate cred for this, this will use when we want to clone pull and push
 then proceed ==>>
 <br><br><br>
 
-<img width="1132" alt="image 2" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/b4ad7dbb-ef03-4fa6-82f7-f989d95b4494">
+<img width="1132" alt="299620973-b4ad7dbb-ef03-4fa6-82f7-f989d95b4494" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/f7e47c67-3c60-4aca-840b-b47caaee938a">
+
 
 
 ## We can also create it with terraform:
@@ -129,12 +133,14 @@ now clone the repo, add the files here to you repo (add,commit,push)
 <img width="1136" alt="image 9" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/c7271ad2-215f-43f5-887e-dfa0e6d3ca33">
 <img width="856" alt="image 10" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/927ae5ec-4cdb-4843-afc5-717130c99866">
 <img width="1155" alt="image 11" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/0efb74c4-c606-4520-b7b0-bb94fe737b6c">
-<img width="809" alt="image 12" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/9c52a68d-8f5d-4d2c-92e1-c5bb1aa83880">
+<img width="809" alt="299622267-9c52a68d-8f5d-4d2c-92e1-c5bb1aa83880" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/8c1c053d-16db-41b1-880a-7072e3e4a9f7">
+
 
 ## ==>> This is the role policies:
-<img width="1118" alt="image 13" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/345d2ca8-ad40-472b-80a8-982f69fccf4f">
+<img width="1118" alt="299622401-345d2ca8-ad40-472b-80a8-982f69fccf4f" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/ba9c3e48-7844-4c73-86f2-6a5288eb7ab9">
 
-## Then back to the deploy group, look for the instance:
+
+## Then back to the deploy group, look for the instance: (the tag name for the instance if on what instance it will run the process)
 <img width="816" alt="image 14" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/136e8d44-c7e9-4d0a-bae3-fb2cf002e945">
 <img width="820" alt="image 15" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/d95e8653-58e5-48c4-aeb6-a54ac7f50608">
 <img width="858" alt="image 16" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/d9235b7a-5870-4328-9e76-b60b346b03ef">
@@ -172,7 +178,8 @@ Then in the bottom:
 
 Here we can see if there is an error:
 
-<img width="1124" alt="image 27" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/366e165b-93ef-4970-8c31-859b6c03bc4f">
+<img width="1124" alt="299623841-366e165b-93ef-4970-8c31-859b6c03bc4f" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/61984cc8-2568-455f-a4fc-ab1cfddb01ce">
+
 
 
 ----
