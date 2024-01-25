@@ -2,8 +2,8 @@ version: 0.2
 
 env:
   variables:
-    DOCKERHUB_USERNAME: "iftachzilka7"
-    DOCKERHUB_PASSWORD: "Iz57248013"
+    DOCKERHUB_USERNAME: "<user>"
+    DOCKERHUB_PASSWORD: "<pass>"
 phases:
   install:
     runtime-versions:
