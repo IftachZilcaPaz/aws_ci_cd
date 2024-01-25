@@ -19,7 +19,7 @@
 create a key pair also <br>
 <img width="792" alt="image" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/42eea878-c0ba-43eb-8db1-e02755fb2ddb"><br>
 <img width="792" alt="image" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/fc1810c6-641a-4180-902a-cd08b380a1ab"><br>
-also create an IAM
+also create an IAM<br>
 <img width="784" alt="image" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/5b13d500-953d-4ef7-b70a-0a4632e2298d"><br>
 
 with those:
