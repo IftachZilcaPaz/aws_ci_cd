@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: Dockerfile
+    destination: /home/ubuntu
+  - source: index.html
+    destination: /home/ubuntu
+hooks:
+  AfterInstall:
+    - location: scripts/run.sh
+      runas: ubuntu
+      timeout: 300
