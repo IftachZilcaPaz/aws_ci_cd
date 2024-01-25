@@ -67,6 +67,8 @@ output "codecommit_repository_clone_url_http" {<br>
 <br>
 ### (When get the url we need to clone the repo to local and then we can do changes and push, in the end of the CI/CD build, each time when we change some and push it, it will trigger the pipeline.)
 
+now clone the repo, add the files here to you repo (add,commit,push)
+
 ---
 
 # -- Create code_build --
