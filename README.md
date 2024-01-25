@@ -88,14 +88,14 @@ then proceed ==>>
 
 ## We can also create it with terraform:
 
-==>> create:
+==>> create:<br>
 resource "aws_codecommit_repository" "example_repository" {<br>
   &nbsp;&nbsp;repository_name = "example-repo" # name of the repository<br>
  &nbsp;&nbsp; description     = "An example repository"<br>
 ##Other configurations...<br>
 }<br>
 
-==>> output: (for http, if I want ssh or https just change in the value Line in the end to what I want)
+==>> output: (for http, if I want ssh or https just change in the value Line in the end to what I want)<br>
 
 output "codecommit_repository_clone_url_http" {<br>
   &nbsp;&nbsp;description = "The HTTP clone URL of the CodeCommit repository"<br>
@@ -104,7 +104,7 @@ output "codecommit_repository_clone_url_http" {<br>
 <br>
 ### (When get the url we need to clone the repo to local and then we can do changes and push, in the end of the CI/CD build, each time when we change some and push it, it will trigger the pipeline.)
 
-now clone the repo, add the files here to you repo (add,commit,push)
+now clone the repo, add the files here to you repo (add,commit,push)<br>
 
 ---
 
@@ -163,20 +163,20 @@ now clone the repo, add the files here to you repo (add,commit,push)
 
 # Debug:
 
-Click on details
+Click on details<br>
 <img width="340" alt="image 23" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/644a8c63-fa7b-4148-9a3d-55bbd4f96d54">
 
-Then
+Then<br>
 <img width="313" alt="image 24" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/62f8bd59-028a-4791-9aad-c833f7341835">
 
-Then in the bottom:
+Then in the bottom:<br>
 
 <img width="1155" alt="image 25" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/4bdef69d-157e-404c-a46f-8dc7327df780">
 
 <img width="114" alt="image 26" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/2e6f4a73-560a-4dab-befa-bbacdf855879">
 
 
-Here we can see if there is an error:
+Here we can see if there is an error:<br>
 
 <img width="1124" alt="299623841-366e165b-93ef-4970-8c31-859b6c03bc4f" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/61984cc8-2568-455f-a4fc-ab1cfddb01ce">
 
