@@ -35,6 +35,16 @@ resource "aws_ecr_repository" "example_repository" {<br>
 
 # -- Create code_commit --
 
+first go to users in IAM:
+<img width="141" alt="image" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/ed106334-b42f-4120-8c8b-f9314e9ac29c"><br>
+go to -> security_credentials
+<img width="649" alt="image" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/673c95f7-c686-444d-9c70-42e622f50840"><br><br>
+then go down:
+<img width="1106" alt="image" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/cab0a8d5-d5c4-41f2-93f5-66fd774b0ef3">
+and generate cred for this, this will use when we want to clone pull and push
+
+then proceed ==>>
+<br><br><br>
 
 <img width="1132" alt="image 2" src="https://github.com/IftachZilcaPaz/aws_ci_cd/assets/151572520/b4ad7dbb-ef03-4fa6-82f7-f989d95b4494">
 
@@ -54,7 +64,8 @@ output "codecommit_repository_clone_url_http" {<br>
   &nbsp;&nbsp;description = "The HTTP clone URL of the CodeCommit repository"<br>
   &nbsp;&nbsp;value       = aws_codecommit_repository.example_repository.clone_url_http<br>
 }<br>
-
+<br>
+### (When get the url we need to clone the repo to local and then we can do changes and push, in the end of the CI/CD build, each time when we change some and push it, it will trigger the pipeline.)
 
 ---
 
